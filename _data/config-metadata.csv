@@ -1,16 +1,16 @@
 field,display_name,browse_link,external_link
-title,Título,
-creator,Autor,
-date,Fecha de creación,
-description,Descripción,
-subject,Temas,true
+title,Título,,
+creator,Autor,,
+date,Fecha de creación,,
+description,Descripción,,
+subject,Temas,true,
 areadoc-link,Enlace al blog Áreadoc,,true
-location,Localización
-latitude,Latitud
-longitude,Longitud
-source,Fuente
-identifier,Fuente-identificador,
-type,Tipo,
-format,Formato,
-rights,Derechos,
+location,Localización,,
+latitude,Latitud,,
+longitude,Longitud,,
+source,Fuente,,
+identifier,Fuente-identificador,,
+type,Tipo,,
+format,Formato,,
+rights,Derechos,,
 rightsstatement,Declaración de derechos,,true
