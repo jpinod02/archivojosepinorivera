@@ -8,14 +8,14 @@ gallery: true
 <div class="container py-3">
     <ul class="breadcrumb h6">
         <li class="breadcrumb-item"><a class="text-dark" href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
-        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/browse.html' | relative_url }}">Browse</a></li>
+        <li class="breadcrumb-item"><a class="text-dark" href="{{ '/browse.html' | relative_url }}">Búsqueda</a></li>
         <li id="bc-title" class="breadcrumb-item active text-dark" aria-current="page"></li>
     </ul>
     <div class="my-0 h5 small" id="item-format"></div>
     <h2 id="item-title" class="mb-3"></h2>
 
     <div id="loading" class="text-center">
-        <div class="spinner-border text-secondary" role="status"><span class="visually-hidden">Loading...</span></div>
+        <div class="spinner-border text-secondary" role="status"><span class="visually-hidden">Cargando...</span></div>
     </div>
 
     <div class="row justify-content-center">
@@ -31,9 +31,9 @@ gallery: true
 
     {%- if site.data.theme.browse-buttons == true -%}
     <div class="text-center">
-        <a id="prev-button" class="btn btn-secondary">&laquo; Previous</a>
-        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Back to browse</a>
-        <a id="for-button" class="btn btn-secondary">Next &raquo;</a>
+        <a id="prev-button" class="btn btn-secondary">&laquo; Anterior</a>
+        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Volver a navegar</a>
+        <a id="for-button" class="btn btn-secondary">Siguiente &raquo;</a>
     </div>
 
     <div id="item-nav">
@@ -44,7 +44,7 @@ gallery: true
     </div>
     {% else %}
     <div class="text-center">
-        <a class="btn btn-outline-primary" href="{{ '/browse.html' | relative_url }}">&laquo; Back to Collection Browse</a>
+        <a class="btn btn-outline-primary" href="{{ '/browse.html' | relative_url }}">&laquo; Volver a navegar por la colección</a>
     </div>
     {% endif %}
 </div>
