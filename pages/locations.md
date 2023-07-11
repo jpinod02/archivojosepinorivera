@@ -8,7 +8,7 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Navegar por ubicaciones
+## Navegar por las ubicaciones
 
 Utilice esta visualización de nube de palabras para buscar ubicaciones.
 El tamaño de las palabras está determinado por la frecuencia y todas las palabras enlazan con la búsqueda de la colección correspondiente.
