@@ -1,11 +1,11 @@
 # CollectionBuilder-GH
 
-A project to generate a free and simple digital collection site using [GitHub Pages](https://pages.github.com/) given:
+Un proyecto para generar un sitio de colección digital gratuito y sencillo utilizando [GitHub Pages](https://pages.github.com/):
 
-- a CSV of collection metadata
-- a folder of JPEG images, PDF documents, MP3s, or links to videos hosted on YouTube or Vimeo
+- un archivo CSV con los metadatos de la colección
+- una carpeta de imágenes JPEG, documentos PDF, MP3 o enlaces a vídeos alojados en YouTube o Vimeo
 
-Visit the [demo site](https://collectionbuilder.github.io/collectionbuilder-gh/).
+Visite la [demo site](https://collectionbuilder.github.io/collectionbuilder-gh/).
 
 ## Build a Digital Collection
 
