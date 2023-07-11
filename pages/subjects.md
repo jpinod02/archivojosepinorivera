@@ -8,7 +8,7 @@ permalink: /subjects.html
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Examinar temas
+## Navegar por los temas
 
 Utilice esta visualización de nube de palabras para explorar términos y temas.
 El tamaño de las palabras está determinado por la frecuencia y todas las palabras tienen un enlace a la búsqueda de la colección correspondiente.
