@@ -23,6 +23,8 @@ El repositorio de plantillas incluye cuatro objetos de la Biblioteca de la Unive
 
 Para obtener todos los detalles sobre la creación del archivo digitai, visite [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
 
+{% include cb/about_the_about.md %}
+
 ## Acerca de este sitio web
 
 Este archivo digital se crea para poner a disposición de investigadores, profesionales y personas interesadas un original acervo documental, memoria de un periodo de gran actividad forestal en la provincia de Málaga.
