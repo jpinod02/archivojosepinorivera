@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
-{% include feature/nav-menu.html sections="Acerca de este sitio web;Acerca del archivo digital" %}
+{% include feature/nav-menu.html sections="Acerca de este sitio web;Acerca del archivo documental" %}
 
 ## Acerca de este sitio web
 
