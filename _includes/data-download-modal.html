@@ -1,4 +1,4 @@
-{% comment %}
+cargar datos{% comment %}
     This include creates a modal pop up with data export options.
     The logic of which formats appear is based on config-nav stubs:
     if subject.html, map.html, location.html, or timeline.html are present, 
@@ -6,7 +6,7 @@
 {%- endcomment -%}
 
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Download Data</button>
+<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">Descargar datos</button>
 <!-- Modal -->
 <div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
