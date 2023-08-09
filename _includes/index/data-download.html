@@ -1,7 +1,7 @@
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
 <div class="card mb-3">
     <div class="card-body">
-        <h5 class="card-title">El archivo digital en datos <small>(pulsa para descargar)</small></h5>
+        <h5 class="card-title">El archivo digital en datos <small>(haga clic para descargar los datos que desee)</small></h5>
         <p class="card-text text-center">
             <a class="btn btn-sm btn-secondary m-2" href="{{ '/assets/data/metadata.csv' | relative_url }}" target="_blank">Metadatos CSV</a>
             <a class="btn btn-sm btn-secondary m-2" href="{{ '/assets/data/metadata.json' | relative_url }}" target="_blank">Metadatos JSON</a>
