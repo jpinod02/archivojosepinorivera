@@ -17,10 +17,10 @@ custom-foot: js/lunr-js.html
             <div class="modal-body">
                 <p>Estas opciones avanzadas pueden añadirse a la consulta en el cuadro de búsqueda para afinar los resultados:</p> 
                 <ul>
-                    <li>Search a specific field: use the field name, colon, then your query, e.g. <code>title:foo</code>, <code>date:1911</code>, <code>subject:tree</code>. En esta colección puede utilizar {{ fields | join: ", " }}.</li>
-                    <li>Wildcards: add <code>*</code> to match any character(s), e.g. <code>foo*</code>, <code>*oo</code>. Esto es útil para utilizar una raíz para encontrar palabras con todas las terminaciones relacionadas.</li>
-                    <li>Fuzzy match: add <code>~</code> plus a number at the end of your query to specify a higher level of fuzziness in search, e.g. <code>foo~1</code>. Esto puede ayudar con los errores ortográficos.</li>
-                    <li>Boost term: add <code>^</code> plus a number to boost the relevance of a term in your query, e.g. <code>foo^10</code>. Esto puede ayudar a reducir el desorden de resultados no relacionados si uno de sus términos es el más importante.</li>
+                    <li>Búsqueda en un campo específico: utilice el nombre del campo, dos puntos y, a continuación, su consulta, por ejemplo <code>title:foo</code>, <code>date:1911</code>, <code>subject:tree</code>. En esta colección puede utilizar {{ fields | join: ", " }}.</li>
+                    <li>Operadores o símbolos: añada <code>*</code> por cualquier carácter(es), por ejemplo <code>foo*</code>, <code>*oo</code>. Esto es útil para encontrar palabras con todas las terminaciones relacionadas o, como en le segundo ejemplo, con todas las raíces relacionadas.</li>
+                    <li>Coincidencia difusa: añada <code>~</code> más un número al final de la consulta para especificar un mayor nivel de imprecisión en la búsqueda, por ejemplo <code>foo~1</code>. Esto puede ayudar con los errores ortográficos.</li>
+                    <li>Término de refuerzo: añada <code>^</code> más un número para aumentar la relevancia de un término en su consulta, por ejemplo <code>foo^10</code>. Esto puede ayudar a reducir el desorden de resultados no relacionados si uno de sus términos es el más importante.</li>
                 </ul>
             </div>
         </div>
@@ -32,9 +32,9 @@ custom-foot: js/lunr-js.html
 <div class="ms-3 mt-3">
     <form class="" role="search" id="lunrSearch" onsubmit="lunr_search(); return false;">
         <div class="input-group input-group-lg">
-            <input id="lunrSearchBox" class="form-control " type="text" placeholder="Enter your search term..." >
+            <input id="lunrSearchBox" class="form-control " type="text" placeholder=" ... " >
             <button class="btn btn-success" type="submit">
-                Search
+                Buscar
             </button>
         </div>
     </form>
