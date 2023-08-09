@@ -1,4 +1,4 @@
-{%- assign formats = site.data[site.metadata] | where_exp: 'item','item.parentid == nil' | map: "format" -%}
+ tabla{%- assign formats = site.data[site.metadata] | where_exp: 'item','item.parentid == nil' | map: "format" -%}
 {%- assign types = "image;audio;video;pdf;record;compound_object;multiple" | split: ";" -%}
 <div class="card mb-3" >
     <div class="card-body">
@@ -28,7 +28,7 @@
             {% endcase %}
             {% endif %}
             {%- endfor -%}
-            <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">View table</a>
+            <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">Ver tabla</a>
         </p>
     </div>
 </div>
